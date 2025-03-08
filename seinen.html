@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Seinen - TOP 3</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff; 
+        }
+        .navbar {
+            background-color: #333;
+        }
+        .card {
+            transition: transform 0.3s; 
+            background-color: #444;
+            min-height: 100%;
+        }
+        .card:hover {
+            transform: scale(1.05); 
+        }
+        h1 {
+            color: #ff6347; 
+        }
+        p {
+            color: #ddd; 
+        }
+
+        .card-img-top {
+            width: 100%; 
+            height: 600px;
+            object-fit: cover;
+        }
+
+        .modal-content {
+            background-color: #444; 
+            color: #fff; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">MEU TOP 3 ANIMES POR GÊNERO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="shounen.html">Shounen</a></li>
+                <li class="nav-item"><a class="nav-link" href="romance.html">Romance/Drama</a></li>
+                <li class="nav-item"><a class="nav-link active" href="seinen.html">Seinen</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="container mt-4 text-center">
+        <h1>Seinen</h1>
+        <p>O gênero seinen é destinado ao público masculino adulto, abordando temas mais profundos e maduros, muitas vezes sombrios, com narrativas complexas e personagens realistas.</p>
+        <div class="row justify-content-center" id="animeList">
+            <div class="col-md-4">
+                <div class="card" data-anime="Death Note">
+                    <img src="assets/imagem_dn.jpg" class="card-img-top" alt="Death Note">
+                    <div class="card-body">
+                        <h5 class="card-title">Death Note</h5>
+                        <p class="card-text">Certo dia um jovem estudante chamado Light Yagami acha um caderno com poderes sobrenaturais, chamado Death Note, no qual era possível matar uma pessoa apenas escrevendo seu nome no caderno. Quando o descobre, Light tenta eliminar todos os criminosos do mundo e dar à sociedade um mundo livre do mal. Mas seus planos começam a sair de rumo quando o detetive L resolver contrariar Light.</p><br><br>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal1">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-anime="Steins Gate">
+                    <img src="assets/imagem_sg.jpg" class="card-img-top" alt="Steins Gate">
+                    <div class="card-body">
+                        <h5 class="card-title">Stein Gate</h5>
+                        <p class="card-text">Steins;Gate é um anime de ficção científica que segue Rintarou Okabe, um autoproclamado cientista maluco, que descobre acidentalmente uma forma de enviar mensagens para o passado usando um micro-ondas modificado. Ao manipular a linha do tempo, ele enfrenta consequências devastadoras, com eventos em espiral fora de controle. Agora, ele e seus amigos lutam para corrigir seus erros e evitar tragédias enquanto exploram as implicações perigosas da viagem no tempo.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal2">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-anime="Code Geass">
+                    <img src="assets/imagem_cg.jpg" class="card-img-top" alt="Code Geass">
+                    <div class="card-body">
+                        <h5 class="card-title">Code Geass</h5>
+                        <p class="card-text">Code Geass segue Lelouch Lamperouge, um príncipe exilado do Império de Britannia, que adquire um poder chamado Geass, que lhe permite controlar a mente das pessoas. Usando essa habilidade, ele assume a identidade mascarada de Zero e lidera uma rebelião contra o império para vingar sua mãe e criar um mundo melhor para sua irmã. A série explora temas de justiça, vingança e os dilemas morais do poder.</p><br><br>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal3">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Mais sobre Death Note</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Premissa: A história gira em torno de Light Yagami, um estudante que encontra um caderno sobrenatural chamado "Death Note", que permite matar qualquer pessoa cujo nome seja escrito nele, desde que o escritor conheça o rosto da vítima.<br><br>
+                    Conflito moral: A trama aborda questões éticas sobre justiça, poder e moralidade, levantando perguntas sobre o que significa ser um deus e os limites que uma pessoa deve respeitar.<br><br>
+                    Personagens complexos: Light é um anti-herói carismático, enquanto L, o detetive enigmático que tenta capturá-lo, traz um forte contraste à sua personalidade.<br><br>
+                    Estilo visual: O design do anime é notável por sua atmosfera sombria e pela intensa expressão emocional dos personagens, refletindo a tensão da narrativa.<br><br>
+                    Impacto cultural: Death Note se tornou um fenômeno global, gerando adaptações em live-action, peças de teatro e até mesmo jogos, além de ser amplamente discutido por sua crítica social.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Mais sobre Steins Gate</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Origem: Foi adaptado de uma visual novel lançada em 2009 pela 5pb e Nitroplus.<br><br>
+                    Temas principais: Explora viagem no tempo, linhas do tempo alternativas e os dilemas éticos e emocionais que surgem ao tentar manipular o passado.<br><br>
+                    Personagens: Além de Rintarou Okabe, personagens como Kurisu Makise e Mayuri Shiina têm papéis centrais e desenvolvem laços emocionantes.<br><br>
+                    Crítica: É amplamente aclamado pela complexidade de sua trama e pelo desenvolvimento de personagens, considerado um dos melhores animes de ficção científica.<br><br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Mais sobre Code Geass</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Gênero e Estilo: Code Geass é uma mistura de mecha, ação, drama e ficção científica, com um estilo visual dinâmico e impactante, marcado por batalhas épicas e design de personagens marcantes.<br><br>
+                    Geass: Cada Geass é único e representa um poder específico. Por exemplo, o Geass de Lelouch permite que ele controle a vontade dos outros, enquanto outros personagens, como Euphemia, possuem Geass que afeta a percepção ou a memória.<br><br>
+                    Complexidade das Relações: As relações entre os personagens são multifacetadas, incluindo amizade, rivalidade e amor, como a relação tumultuada entre Lelouch e seu amigo de infância Suzaku Kururugi, que se torna um antagonista em muitos aspectos.<br><br>
+                    Exploração de Temas: A série aborda temas como sacrifício, moralidade, o peso do poder, e a linha tênue entre o bem e o mal. A busca de Lelouch por justiça pessoal e a maneira como suas ações afetam os outros são centrais para a narrativa.<br><br>
+                    Fandom e Legado: Code Geass ganhou um grande número de fãs e é frequentemente discutido em comunidades de anime, com muitos considerando-o um dos melhores animes de todos os tempos. A série gerou várias sequências, filmes e adaptações, ampliando seu universo.<br><br>
+                    Impacto Cultural: A série é famosa por suas reviravoltas inesperadas e finais emocionantes, que desafiam as expectativas dos espectadores. Seu enredo envolvente e personagens complexos fazem com que os temas centrais continuem relevantes, atraindo novas audiências ao longo dos anos.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#animeList .card').click(function() {
+                if ($(this).css('background-color') === 'rgb(68, 68, 68)') {
+                    $(this).css('background-color', 'white').find('.card-title, .card-text').css('color', 'black');
+                } else {
+                    $(this).css('background-color', '#444').find('.card-title, .card-text').css('color', 'white');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

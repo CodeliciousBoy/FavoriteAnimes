@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Romance - TOP 3</title>
+    <style>
+        body {
+            background-color: #ffebcd; 
+        }
+        .navbar {
+            background-color: #ff69b4;
+        }
+        .card {
+            transition: transform 0.3s; 
+            background-color: #fff; 
+            min-height: 100%;
+        }
+        
+        .card:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            color: #ff1493; 
+        }
+        p {
+            color: #333; 
+        }
+
+        .card-img-top {
+            width: 100%; 
+            height: 600px; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">MEU TOP 3 ANIMES POR GÊNERO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="shounen.html">Shounen</a></li>
+                <li class="nav-item"><a class="nav-link active" href="romance.html">Romance/Drama</a></li>
+                <li class="nav-item"><a class="nav-link" href="seinen.html">Seinen</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="container mt-4 text-center">
+        <h1>Romance/Drama</h1>
+        <p>O gênero romance/drama foca nas relações românticas e conflitos emocionais, explorando dilemas pessoais e interações complexas.</p>
+        <div class="row justify-content-center" id="animeList">
+            <div class="col-md-4">
+                <div class="card" data-anime="Koe no Katachi">
+                    <img src="assets/imagem_koenokatachi.jpg" class="card-img-top" alt="Koe no Katachi">
+                    <div class="card-body">
+                        <h5 class="card-title">Koe no Katachi</h5>
+                        <p class="card-text">Koe no Katachi (A Voz do Silêncio) é uma história sobre redenção e empatia. Shoya Ishida, um ex-valentão, tenta se redimir após ter intimidado uma colega surda, Shoko Nishimiya, no ensino fundamental. Anos depois, consumido pela culpa e pelo isolamento social, ele busca uma forma de se reconciliar com Shoko e reparar os danos do passado. A trama explora temas profundos como bullying, depressão, aceitação e a importância de se conectar com os outros para encontrar a paz interior.</p><br><br>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal1">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-anime="Toradora!">
+                    <img src="assets/imagem_toradora.jpg" class="card-img-top" alt="Toradora!">
+                    <div class="card-body">
+                        <h5 class="card-title">Toradora!</h5>
+                        <p class="card-text">Toradora! é uma comédia romântica que gira em torno de Ryuuji Takasu, um garoto gentil com aparência intimidadora, e Taiga Aisaka, uma garota pequena, mas com uma personalidade feroz. Apesar de suas diferenças, os dois formam uma aliança inesperada para ajudarem um ao outro a conquistar seus respectivos interesses amorosos: Ryuuji gosta da melhor amiga de Taiga, Minori, enquanto Taiga tem uma queda pelo melhor amigo de Ryuuji, Yuusaku. À medida que colaboram, eles acabam desenvolvendo uma amizade profunda, que lentamente começa a evoluir para algo mais.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal2">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-anime="Kimi no Suizou wo Tabetai">
+                    <img src="assets/imagem_pancreas.jpg" class="card-img-top" alt="Kimi no Suizou wo Tabetai">
+                    <div class="card-body">
+                        <h5 class="card-title">Kimi no Suizou wo Tabetai</h5>
+                        <p class="card-text">Kimi no Suizou wo Tabetai (Quero Comer Seu Pâncreas) é um drama emocionante sobre amizade e aceitação da mortalidade. A história segue um estudante introvertido que, por acaso, encontra o diário de sua colega de classe, Sakura Yamauchi, descobrindo que ela sofre de uma doença terminal no pâncreas. Apesar de suas personalidades opostas, eles começam a passar tempo juntos, enquanto Sakura tenta viver seus últimos dias ao máximo. Ao longo dessa jornada, o protagonista aprende a importância das conexões humanas e a encontrar novos significados para sua vida.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal3">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Mais sobre Koe no Katachi</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Sensibilidade: Koe no Katachi é altamente elogiado pela maneira sensível com que aborda temas como bullying, deficiência auditiva e saúde mental.<br><br>
+                    Arte e música: A animação é belíssima, com uma trilha sonora emocional que acompanha as cenas de forma profunda e imersiva.<br><br>
+                    Perspectivas múltiplas: O filme não apenas foca na redenção de Shoya, mas também explora a solidão e o sofrimento de Shoko, oferecendo uma visão empática de ambos os lados da história.<br><br>
+                    Impacto emocional: É um dos filmes mais comoventes do gênero, sendo aclamado por sua profundidade emocional e sua mensagem sobre aceitação e cura.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Mais sobre Toradora!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Desenvolvimento de personagens: Ao longo da série, a relação entre Ryuuji e Taiga evolui de uma aliança pragmática para uma amizade verdadeira, com ambos amadurecendo emocionalmente.<br><br>
+                    Temas: O anime explora os desafios do amor não correspondido, as expectativas sociais e familiares, além da dificuldade de expressar os sentimentos.<br><br>
+                    Tons cômicos e dramáticos: Embora seja uma comédia romântica, Toradora! tem momentos emocionantes e dramáticos, abordando de forma realista os dilemas adolescentes.<br><br>
+                    Popularidade: É amplamente considerado um dos melhores romances escolares dos animes, com uma base de fãs dedicada.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Mais sobre Kimi no Suizou wo Tabetai</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Título intrigante: O título curioso vem de uma antiga crença de que comer o órgão doente de alguém poderia curá-lo, simbolizando a forte conexão entre os protagonistas.<br><br>
+                    Narrativa comovente: A relação entre os protagonistas, inicialmente distantes, evolui para uma amizade genuína, que impacta profundamente suas vidas.<br><br>
+                    Emoções e lições de vida: O filme ensina sobre viver o presente e valorizar as pequenas interações cotidianas, enfatizando como as conexões humanas podem transformar vidas.<br><br>
+                    Tragédia e esperança: Embora a história tenha um tom melancólico devido à doença de Sakura, ela também transmite uma mensagem de esperança e celebração da vida.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+            $(document).ready(function() {
+                $('#animeList .card').click(function() {
+                    if ($(this).css('background-color') === 'rgb(255, 192, 203)') { 
+                        $(this).css('background-color', '').find('.card-title, .card-text').css('color', '');
+                    } else {
+                        $(this).css('background-color', 'pink').find('.card-title, .card-text').css('color', 'white');
+                        $(this).siblings().css('background-color', '').find('.card-title, .card-text').css('color', '');
+                    }
+                });
+            });
+    </script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Shounen - TOP 3</title>
+    <style>
+        body {
+            background-color: #ffebcd;
+        }
+        .navbar {
+            background-color: #ffa500; 
+        }
+        .card {
+            transition: transform 0.3s;
+            background-color: #fff; 
+            min-height: 100%;
+        }
+        .card:hover {
+            transform: scale(1.05); 
+        }
+        h1 {
+            color: #ff4500; 
+        }
+        p {
+            color: #333; 
+        }
+        
+        .card-img-top {
+            width: 100%; 
+            height: 600px; 
+            object-fit: cover; 
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">MEU TOP 3 ANIMES POR GÊNERO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="shounen.html">Shounen</a></li>
+                <li class="nav-item"><a class="nav-link" href="romance.html">Romance/Drama</a></li>
+                <li class="nav-item"><a class="nav-link" href="seinen.html">Seinen</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <div class="container mt-4 text-center">
+        <h1>Shounen</h1>
+        <p>Shounen é um gênero voltado para jovens, geralmente entre 12 e 18 anos, que apresenta aventura, ação e desenvolvimento de personagens, com protagonistas enfrentando desafios e formando amizades.</p>
+        <div class="row justify-content-center" id="animeList">
+            <div class="col-md-4">
+                <div class="card" data-anime="Naruto">
+                    <img src="assets/imagem_hunter.jpg" class="card-img-top" alt="Hunter x Hunter">
+                    <div class="card-body">
+                        <h5 class="card-title">Hunter x Hunter</h5>
+                        <p class="card-text">Hunter x Hunter acompanha Gon Freecss, um jovem que parte em busca de seu pai, Ging, um lendário Hunter. Para encontrá-lo, Gon decide se tornar um Hunter — indivíduos licenciados para realizar tarefas perigosas como caça de tesouros ou captura de criminosos. Ao longo da jornada, ele faz amigos poderosos, como Killua, Kurapika e Leorio, e enfrenta desafios perigosos enquanto explora o mundo e descobre seus próprios limites. A série combina ação, aventura e profundos dilemas morais.</p><br><br>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal1">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-anime="One Piece">
+                    <img src="assets/imagem_one_piece.jpg" class="card-img-top" alt="One Piece">
+                    <div class="card-body">
+                        <h5 class="card-title">One Piece</h5>
+                        <p class="card-text">One Piece segue a jornada de Monkey D. Luffy, um jovem pirata que sonha em encontrar o lendário tesouro "One Piece" e se tornar o Rei dos Piratas. Com seu chapéu de palha e a habilidade de esticar o corpo como borracha, adquirida ao comer uma Fruta do Diabo, Luffy reúne uma tripulação diversificada chamada "Piratas do Chapéu de Palha". Juntos, eles enfrentam inimigos poderosos, exploram ilhas exóticas e desafiam a Marinha enquanto navegam pela Grande Rota em busca do maior tesouro do mundo.</p><br><br>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal2">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card" data-anime="Haikyū!!">
+                    <img src="assets/imagem_haikyuu.jpg" class="card-img-top" alt="Haikyū!!">
+                    <div class="card-body">
+                        <h5 class="card-title">Haikyū!!</h5>
+                        <p class="card-text">Haikyuu!! é um anime de esportes que segue Shoyo Hinata, um garoto apaixonado por vôlei, apesar de sua baixa estatura. Inspirado por um jogador chamado "Pequeno Gigante", ele se junta ao time de vôlei da escola Karasuno, onde enfrenta inúmeros desafios para melhorar suas habilidades. Ao lado de seus companheiros de equipe, como o talentoso levantador Kageyama, Hinata busca levar Karasuno ao topo, competindo em torneios intensos e formando laços de amizade e rivalidade com outros times. A série destaca o espírito de equipe, superação e paixão pelo esporte.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal3">Ver mais</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal1Label">Mais sobre Hunter X Hunter </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Arcos: Conhecido por arcos variados, como o “Exame Hunter”, “Yorknew City” e o aclamado “Arco das Chimera Ants”, cada um com um tom distinto.<br><br>
+                    Nen: O sistema de poderes Nen é um dos mais complexos e bem elaborados dos animes de luta, com regras detalhadas sobre habilidades e limitações.<br><br>
+                    Personagens: A série oferece personagens muito diversificados, com destaque para o carismático Killua e o vilão Hisoka, além do crescimento contínuo de Gon.<br><br>
+                    Hiato: O mangá é conhecido por passar por longos períodos de hiato devido à saúde do criador, Yoshihiro Togashi.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal2Label">Mais sobre One Piece</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Mangá mais vendido: One Piece é o mangá mais vendido da história, com mais de 500 milhões de cópias em circulação.<br><br>
+                    Mundo expansivo: O universo de One Piece é conhecido por sua imensidão, com inúmeras ilhas, culturas e facções, criando uma sensação de aventura infinita.<br><br>
+                    Temas principais: A série aborda temas como liberdade, amizade, sonhos e superação, e Luffy é conhecido por ser um líder carismático e inspirador.<br><br>
+                    Longevidade: Estreado em 1999, a série ainda está em andamento, com fãs aguardando ansiosamente a conclusão da busca pelo tesouro "One Piece".
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal3Label">Mais sobre Haikyuu</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Realismo: É aclamado por sua retratação realista do vôlei e pela precisão técnica das jogadas.<br><br>
+                    Personagens: Além de Hinata, o desenvolvimento de outros jogadores como Kageyama, Tsukishima e Oikawa é um ponto forte da série, com cada um tendo suas próprias lutas e vitórias pessoais.<br><br>
+                    Temas: O anime enfatiza trabalho em equipe, determinação e superação de obstáculos pessoais, inspirando não apenas fãs de esportes, mas também quem gosta de boas histórias de crescimento.<br><br>
+                    Impacto: Haikyuu!! revitalizou o interesse pelo vôlei entre jovens, com uma base de fãs global.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#animeList .card').click(function() {
+                if ($(this).css('background-color') === 'rgb(255, 165, 0)') { 
+                    $(this).css('background-color', '').find('.card-title, .card-text').css('color', '');
+                } else {
+                    $(this).css('background-color', 'orange').find('.card-title, .card-text').css('color', 'black');
+                    $(this).siblings().css('background-color', '').find('.card-title, .card-text').css('color', '');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
